@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "date": "2024-12-20",
+    "time": "09:00",
+    "protocol": "vo2max",
+    "price": 150,
+    "available": false,
+    "created_at": "2025-09-11T20:43:56.464Z",
+    "updated_at": "2025-09-11T20:53:30.644Z"
+  },
+  {
+    "id": "2",
+    "date": "2024-12-20",
+    "time": "11:00",
+    "protocol": "vo2max",
+    "price": 150,
+    "available": false,
+    "created_at": "2025-09-11T20:43:56.465Z",
+    "updated_at": "2025-09-11T21:35:39.295Z"
+  },
+  {
+    "id": "3",
+    "date": "2024-12-21",
+    "time": "09:00",
+    "protocol": "runwalk",
+    "price": 50,
+    "available": true,
+    "created_at": "2025-09-11T20:43:56.465Z"
+  },
+  {
+    "id": "4",
+    "date": "2024-12-21",
+    "time": "16:00",
+    "protocol": "vo2max",
+    "price": 150,
+    "available": true,
+    "created_at": "2025-09-11T20:43:56.465Z"
+  },
+  {
+    "id": "5",
+    "date": "2024-12-22",
+    "time": "10:00",
+    "protocol": "runwalk",
+    "price": 50,
+    "available": true,
+    "created_at": "2025-09-11T20:43:56.465Z"
+  },
+  {
+    "id": "ee69b370-2278-45fa-bc72-ac0821f8792b",
+    "date": "2025-12-25",
+    "time": "14:00",
+    "protocol": "vo2max",
+    "price": 150,
+    "created_at": "2025-09-11T20:45:45.771Z",
+    "available": false,
+    "updated_at": "2025-09-11T21:36:52.536Z"
+  },
+  {
+    "id": "b1f97eaa-4372-4c07-9502-3c7f7721fd50",
+    "date": "2024-12-25",
+    "time": "10:00",
+    "protocol": "vo2max",
+    "price": 150,
+    "created_at": "2025-09-15T06:27:50.658Z",
+    "available": true
+  },
+  {
+    "id": "3313ab1f-9e34-4632-bece-0cbeabf11bf7",
+    "date": "2024-12-26",
+    "time": "14:00",
+    "protocol": "vo2max",
+    "price": 150,
+    "created_at": "2025-09-15T06:29:08.262Z",
+    "available": true
+  },
+  {
+    "id": "a514e5e3-84d7-486a-8751-b138136b66a9",
+    "date": "2025-09-17",
+    "time": "10:30",
+    "protocol": "vo2max",
+    "price": 150,
+    "created_at": "2025-09-15T06:30:43.219Z",
+    "available": true
+  }
+]

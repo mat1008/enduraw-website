@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure over-scroll rubber band shows dark background instead of white */
+html, body {
+  background-color: #0a0a0a; /* matches theme dark-bg */
+  color-scheme: dark;
+}
+
+/* Continuous marquee-style logo scrollers */
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes scroll-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-scroll-left {
+  animation: scroll-left 40s linear infinite;
+}
+
+.animate-scroll-right {
+  animation: scroll-right 40s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-scroll-left, .animate-scroll-right { animation: none; }
+}
+
+/* Flip + shuffle interaction for testimonial cards */
+.flip {
+  perspective: 1200px;
+}
+.flip-inner {
+  transition: transform 0.6s ease;
+  transform-style: preserve-3d;
+}
+
+/* Hide scrollbars for custom carousels */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+.flip:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+.flip-face {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.flip-back {
+  transform: rotateY(180deg);
+}
+.flip:hover {
+  animation: shuffle-flash 300ms ease;
+}
+@keyframes shuffle-flash {
+  0% { transform: rotateZ(0deg) translateY(0); }
+  30% { transform: rotateZ(-2deg) translateY(-2px); }
+  60% { transform: rotateZ(2deg) translateY(1px); }
+  100% { transform: rotateZ(0deg) translateY(0); }
+}
