@@ -42,10 +42,9 @@ jobs:
           elif [ -f package-lock.json ]; then npm ci; else npm install; fi
 
       - name: Build
-        run: |
-          if [ "${{ steps.pm.outputs.pm }}" = "pnpm" ]; then pnpm run build;
-          elif [ "${{ steps.pm.outputs.pm }}" = "yarn" ]; then yarn build;
-          else npm run build; fi
+        run: npm run build
+        env:
+          CI: false
 
       - name: Detect output dir
         id: outdir
