@@ -306,42 +306,43 @@ const TestingPage: React.FC = () => {
             </div>
           </div>
 
-          {/* Système de réservation en ligne - Coming Soon */}
+          {/* Système de réservation en ligne */}
           <div className="bg-gradient-to-br from-blue-600/10 to-purple-600/10 p-8 rounded-2xl border border-blue-400/20">
             <h2 className="text-3xl font-bold mb-6 gradient-text-blue text-center">
               Réservation en ligne 🚀
             </h2>
             <div className="glass-card p-8 text-center">
               <div className="mb-6">
-                <div className="text-6xl mb-4">🔧</div>
-                <h3 className="text-2xl font-bold mb-4 gradient-text-orange">Coming Soon</h3>
+                <div className="text-6xl mb-4">📅</div>
                 <p className="text-xl text-gray-200 mb-6 leading-relaxed">
-                  Le système de réservation en ligne sera bientôt disponible !
+                  Réservez votre test physiologique dès maintenant !
                 </p>
                 <p className="text-lg text-gray-300 mb-8">
-                  En attendant, contactez-nous directement pour réserver votre créneau de test.
+                  Sélectionnez votre créneau et protocole de test en quelques clics.
                 </p>
               </div>
-              
+
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="/contact"
-                  className="btn-gradient px-8 py-3 rounded-lg inline-flex items-center justify-center gap-2"
+                  href="https://hg1xgb-km.myshopify.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 inline-flex items-center justify-center gap-2 transform hover:scale-105 shadow-lg hover:shadow-xl"
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3a2 2 0 012-2h4a2 2 0 012 2v4m-6 4v10m6-10v10M5 7h14l-1 12H6L5 7z" />
                   </svg>
-                  <span>Nous contacter</span>
+                  <span>Réserver maintenant</span>
                 </a>
-                
+
                 <a
-                  href="mailto:contact.enduraw@gmail.com?subject=Réservation test Chamonix"
+                  href="/contact"
                   className="px-8 py-3 rounded-lg border border-white/40 text-white hover:bg-white/10 transition-all duration-300 inline-flex items-center justify-center gap-2"
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                   </svg>
-                  <span>Email direct</span>
+                  <span>Nous contacter</span>
                 </a>
               </div>
             </div>
