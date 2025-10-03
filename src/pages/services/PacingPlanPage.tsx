@@ -65,7 +65,7 @@ const PacingPlanPage: React.FC = () => {
               Whether you want to run a marathon in under 3h30 or finish a trail race. We want to help you reaching your optimum performance.
             </p>
             <a
-              href="https://buy.stripe.com/9B628s8Vm26S7cXaiQfEk00"
+              href="https://hg1xgb-km.myshopify.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/50 inline-flex items-center gap-3 text-lg uppercase tracking-wide"
