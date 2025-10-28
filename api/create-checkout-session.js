@@ -82,7 +82,6 @@ module.exports = async (req, res) => {
               product_data: {
                 name: productName,
                 description: description,
-                images: ['https://your-website.com/images/testing.png'], // Remplacez par votre URL d'image
               },
               unit_amount: price * 100, // Stripe utilise les centimes
             },

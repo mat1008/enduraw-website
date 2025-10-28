@@ -48,29 +48,7 @@ const TestingPage: React.FC = () => {
             Testing Services
           </h1>
         </div>
-        
-        <div 
-          id="animate-hero-image" 
-          className={`mb-12 text-center transform transition-all duration-1000 delay-300 ${
-            animatedElements.has('animate-hero-image')
-              ? 'translate-y-0 opacity-100 scale-100'
-              : 'translate-y-10 opacity-0 scale-95'
-          }`}
-        >
-          <div className="relative group">
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/30 to-pink-500/30 rounded-lg blur-xl group-hover:blur-2xl transition-all duration-300"></div>
-            <img
-              src="/images/testing.png"
-              alt="Testing Services"
-              className="max-w-[70%] h-auto mx-auto rounded-lg shadow-2xl relative z-10 group-hover:scale-105 transition-transform duration-300"
-              onError={(e) => {
-                const target = e.target as HTMLImageElement;
-                target.style.display = 'none';
-              }}
-            />
-          </div>
-        </div>
-        
+
         {/* Subtitle */}
         <div 
           id="animate-subtitle"
